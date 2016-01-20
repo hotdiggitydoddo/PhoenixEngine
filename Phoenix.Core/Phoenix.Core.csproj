@@ -31,8 +31,33 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Feature.cs" />
-    <Compile Include="RNG.cs" />
+    <Compile Include="Scripts\Building Blocks\Address.cs" />
+    <Compile Include="Scripts\Building Blocks\Cell.cs" />
+    <Compile Include="Scripts\Building Blocks\DirectionManager.cs" />
+    <Compile Include="Scripts\Building Blocks\Map.cs" />
+    <Compile Include="Scripts\Building Blocks\Room.cs" />
+    <Compile Include="Scripts\Building Blocks\WorldMap.cs" />
+    <Compile Include="Scripts\Managers and Tools\FilePorter.cs" />
+    <Compile Include="Scripts\Managers and Tools\MethodLibrary.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_AlternativeDungeon.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_Castle.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_Cavern.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_Dungeon.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_DungeonRuins.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_DwarfTown.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_EmptyMap.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_Maze.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_ObstacleBiome.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_PerlinLikebiome.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_RockyHill.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_RoundRooms.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_StickBiome.cs" />
+    <Compile Include="Scripts\Map Generators\Generator_StickDungeon.cs" />
+    <Compile Include="Scripts\Structural\Heap.cs" />
+    <Compile Include="Scripts\WorldMap Generators\Generator_Generic_World.cs" />
+    <Compile Include="Scripts\WorldMap Generators\Generator_Variable_World.cs" />
+    <Compile Include="Vector2.cs" />
+    <Compile Include="MathHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
